@@ -1,4 +1,7 @@
-export function solution(data: number[], selected: number[]) {
+const data = [1, 2, 3];
+const selected = [1];
+
+function solution(data: number[], selected: number[]) {
   if (data.length === selected.length) {
     return data;
   }
@@ -21,3 +24,5 @@ export function solution(data: number[], selected: number[]) {
 
   return result;
 }
+
+console.log(solution(data, selected));
